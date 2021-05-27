@@ -20,7 +20,7 @@ article *{
         font-size: 17px;
     }
 }
-@media (max-width: 5in){
+@media (max-width:minmax(0in, 5in) ){
     :root{font-size: 16in;}
 }
 
