@@ -1,0 +1,18 @@
+/* By default browser made some decision for us which is kind of nice but some time
+we don't want browser to assume anything and can be quite frustrating for us.
+
+so what we are doing is we are assigning body and all it's children to some universal
+value so that we dont have to deal with any pre opinions and decision
+and we can have a blank slate as start
+*/
+:root {font: 20px/1.2 "Roboto",sans-serif;}   /* or html */
+
+body,
+body * {
+    margin:               unset;
+    box-sizing:           unset;
+    padding:              unset;
+    font-size:            unset;
+    color:                unset;
+    text-decoration:      unset;
+}
